@@ -57,90 +57,104 @@ impl Sequence {
     }
 
     pub fn compare(gene: &[Nucleotide], sequence: &[Nucleotide]) -> i32 {
-        if gene.is_empty() {
-            -(sequence.len() as i32)
-        } else if sequence.is_empty() {
-            -(gene.len() as i32)
-        } else {
-            let mut result = vec![None; sequence.len() * gene.len()];
-
-            Sequence::compare_rec_first(&gene, &sequence, &mut result)
+        let mut result = vec![0; (sequence.len() + 1) * (gene.len() + 1)];
+        let size = gene.len() + 1;
+        for (j, res) in result.iter_mut().enumerate().take(size) {
+            *res = -2 * j as i32;
         }
-    }
 
-    fn compare_rec_first(
-        gene: &[Nucleotide],
-        sequence: &[Nucleotide],
-        result: &mut [Option<i32>],
-    ) -> i32 {
-        if sequence.is_empty() {
-            -(gene.len() as i32) * 3
-        } else {
-            let skip_seq = Sequence::compare_rec_first(gene, &sequence[1..], result);
-
-            let step = Sequence::compare_rec(&gene[1..], &sequence[1..], gene.len(), result)
-                + if gene[0] == sequence[0] { 1 } else { -1 };
-
-            let skip_gene = Sequence::compare_rec(&gene[1..], sequence, gene.len(), result) - 3;
-
-            skip_seq.max(step).max(skip_gene)
-        }
-    }
-
-    /*
-        CGT  .CGT
-        ACGT
-
-        AGCTACGT..... | ACGTA
-        AGCG..CGCAGC. | ACTA
-
-        CGT  CGT
-        GTAC .GTAC
-
-        AGTC  AG....TC
-        .....AGTC..
-        AGAAAA.TCAA
-    */
-
-    fn compare_rec(
-        gene: &[Nucleotide],
-        sequence: &[Nucleotide],
-        gene_size: usize,
-        result: &mut [Option<i32>],
-    ) -> i32 {
-        if gene.is_empty() {
-            0
-        } else if sequence.is_empty() {
-            -(gene.len() as i32) * 3
-        } else {
-            let idx = gene_size * (sequence.len() - 1) + gene.len() - 1;
-            match result[idx] {
-                None => {
-                    if gene[0] == sequence[0] {
-                        let step =
-                            Sequence::compare_rec(&gene[1..], &sequence[1..], gene_size, result)
-                                + 1;
-                        result[idx] = Some(step);
-                        step
+        for i in 1..=sequence.len() {
+            for j in 1..gene.len() {
+                let skip = result[(i - 1) * size + j] - 3;
+                let skip_seq = result[i * size + j - 1] - 3;
+                let step = result[(i - 1) * size + j - 1]
+                    + if sequence[sequence.len() - i] == gene[gene.len() - j] {
+                        2
                     } else {
-                        let skip_seq =
-                            Sequence::compare_rec(gene, &sequence[1..], gene_size, result) - 2;
+                        -1
+                    };
+                result[i * size + j] = skip.max(skip_seq.max(step));
+            }
+            let j = gene.len();
 
-                        let step =
-                            Sequence::compare_rec(&gene[1..], &sequence[1..], gene_size, result)
-                                - 1;
+            let skip = result[(i - 1) * size + j];
+            let skip_seq = result[i * size + j - 1] - 3;
+            let step = result[(i - 1) * size + j - 1]
+                + if sequence[sequence.len() - i] == gene[gene.len() - j] {
+                    2
+                } else {
+                    -1
+                };
+            result[i * size + j] = skip.max(skip_seq.max(step));
+        }
 
-                        let skip_gene =
-                            Sequence::compare_rec(&gene[1..], sequence, gene_size, result) - 2;
+        result[result.len() - 1]
+    }
 
-                        let max = skip_seq.max(step).max(skip_gene);
-                        result[idx] = Some(max);
-                        max
-                    }
+    pub fn get_best_alignment(gene: &[Nucleotide], sequence: &[Nucleotide]) -> (i32, String) {
+        let mut result = vec![(0, 2); (sequence.len() + 1) * (gene.len() + 1)];
+        let size = gene.len() + 1;
+        for (j, res) in result.iter_mut().enumerate().take(size) {
+            *res = (-2 * j as i32, 0);
+        }
+
+        for i in 1..=sequence.len() {
+            for j in 1..gene.len() {
+                let skip = (result[(i - 1) * size + j].0 - 3, 2);
+                let skip_seq = (result[i * size + j - 1].0 - 3, 0);
+                let step = (
+                    result[(i - 1) * size + j - 1].0
+                        + if sequence[sequence.len() - i] == gene[gene.len() - j] {
+                            2
+                        } else {
+                            -4
+                        },
+                    1,
+                );
+                result[i * size + j] = skip.max(skip_seq.max(step));
+            }
+            let j = gene.len();
+
+            let skip = (result[(i - 1) * size + j].0, 2);
+            let skip_seq = (result[i * size + j - 1].0 - 3, 0);
+            let step = (
+                result[(i - 1) * size + j - 1].0
+                    + if sequence[sequence.len() - i] == gene[gene.len() - j] {
+                        2
+                    } else {
+                        -4
+                    },
+                1,
+            );
+            result[i * size + j] = skip.max(skip_seq.max(step));
+        }
+
+        let mut i = sequence.len();
+        let mut j = gene.len();
+        let mut s = String::new();
+
+        while i != 0 || j != 0 {
+            match result[i * size + j].1 {
+                2 => {
+                    s.push('.');
+                    i -= 1;
                 }
-                Some(val) => val,
+                1 => {
+                    s.push(gene[gene.len() - j].into());
+                    j -= 1;
+                    i -= 1;
+                }
+                0 => {
+                    j -= 1;
+                }
+                _ => unreachable!("Should not be reached !"),
             }
         }
+        (result[result.len() - 1].0, s)
+    }
+
+    pub fn to_string(&self) -> String {
+        Into::<String>::into(self)
     }
 }
 
@@ -150,6 +164,12 @@ impl Deref for Sequence {
     type Target = [Nucleotide];
     fn deref(&self) -> &Self::Target {
         &self.0
+    }
+}
+
+impl Into<String> for &Sequence {
+    fn into(self) -> String {
+        self.0.iter().map(|&n| Into::<char>::into(n)).collect()
     }
 }
 
@@ -169,6 +189,13 @@ impl Genes {
                 }
             })
             .0
+    }
+
+    pub fn get_gene<'a>(&'a self, name: &str) -> Option<&'a Sequence> {
+        self.0
+            .iter()
+            .filter_map(|(s, seq)| if s == name { Some(seq) } else { None })
+            .next()
     }
 
     pub fn load_from(path: &str) -> Self {
@@ -341,6 +368,60 @@ impl SequenceResult {
         )
     }
 
+    pub fn calcul_and_save_to(
+        path: &str,
+        sequences: &Sequences,
+        genes_v: &Genes,
+        genes_d: &Genes,
+        genes_j: &Genes,
+    ) -> Self {
+        use std::fs::File;
+        use std::io::Write;
+        let mut file = File::create(path).expect("Cannot create file");
+        SequenceResult(
+            sequences
+                .0
+                .iter()
+                .map(|sequence| {
+                    let tmp = (
+                        sequence.0.clone(),
+                        (
+                            genes_v.get_best(&sequence.1).to_string(),
+                            genes_d.get_best(&sequence.1).to_string(),
+                            genes_j.get_best(&sequence.1).to_string(),
+                        ),
+                    );
+                    println!("{}", sequence.0);
+                    file.write_all(
+                        format!(
+                            "{} :\n{}\n\n{}\n{}\n{}\n\n",
+                            tmp.0,
+                            sequence.1.to_string(),
+                            Sequence::get_best_alignment(
+                                genes_v.get_gene(&tmp.1 .0).unwrap(),
+                                &sequence.1
+                            )
+                            .1,
+                            Sequence::get_best_alignment(
+                                genes_d.get_gene(&tmp.1 .1).unwrap(),
+                                &sequence.1
+                            )
+                            .1,
+                            Sequence::get_best_alignment(
+                                genes_j.get_gene(&tmp.1 .2).unwrap(),
+                                &sequence.1
+                            )
+                            .1,
+                        )
+                        .as_bytes(),
+                    )
+                    .expect("Cannot write to file");
+                    tmp
+                })
+                .collect(),
+        )
+    }
+
     pub fn get_confusion_matrixes(
         predictions: &SequenceResult,
         results: &SequenceResult,
@@ -405,16 +486,21 @@ impl fmt::Display for ConfusionMatrix {
 }
 
 fn main() {
-    let genes_j = Genes::load_from("../data/database/IGHJgenes.txt");
-    let genes_d = Genes::load_from("../data/database/IGHDgenes.txt");
-    let genes_v = Genes::load_from("../data/database/IGHVgenes.txt");
+    let genes_j = Genes::load_from("data/database/IGHJgenes.txt");
+    let genes_d = Genes::load_from("data/database/IGHDgenes.txt");
+    let genes_v = Genes::load_from("data/database/IGHVgenes.txt");
 
-    let sequences = Sequences::load_from("../data/datasets/simulations/sim1.fasta");
+    let sequences = Sequences::load_from("data/datasets/simulations/sim1.fasta");
 
-    let results = SequenceResult::load_from("../data/datasets/simulations/simTrueGenes.txt");
+    let results = SequenceResult::load_from("data/datasets/simulations/simTrueGenes.txt");
 
-    let predictions =
-        SequenceResult::calcul_from_and_compare(&sequences, &genes_v, &genes_d, &genes_j, &results);
+    let predictions = SequenceResult::calcul_and_save_to(
+        "test_alignment/test.txt",
+        &sequences,
+        &genes_v,
+        &genes_d,
+        &genes_j,
+    );
     // let predictions = SequenceResult::load_from("../data/datasets/simulations/simTrueGenes.txt");
 
     predictions.save_to("first_predictions");
