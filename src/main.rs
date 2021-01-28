@@ -177,7 +177,7 @@ impl Into<String> for &Sequence {
 struct Genes(Vec<(String, Sequence)>);
 
 impl Genes {
-    pub fn get_best<'a>(&'a self, sequence: &Sequence) -> &'a str {
+    pub fn get_best<'a>(&'a self, sequence: &[Nucleotide]) -> &'a str {
         self.0
             .iter()
             .fold(("No genes", i32::MIN), |res, gene| {
@@ -374,6 +374,7 @@ impl SequenceResult {
         genes_v: &Genes,
         genes_d: &Genes,
         genes_j: &Genes,
+        results: &SequenceResult,
     ) -> Self {
         use std::fs::File;
         use std::io::Write;
@@ -392,8 +393,9 @@ impl SequenceResult {
                         ),
                     );
                     println!("{}", sequence.0);
+                    let result = results.0.get(&tmp.0.to_string()).unwrap();
                     file.write_all(
-                        format!(
+                        (format!(
                             "{} :\n{}\n\n{}\n{}\n{}\n\n",
                             tmp.0,
                             sequence.1.to_string(),
@@ -412,8 +414,34 @@ impl SequenceResult {
                                 &sequence.1
                             )
                             .1,
-                        )
-                        .as_bytes(),
+                        ) + &format!(
+                            "{}\n{}\n{}\n\n",
+                            if let Some(gene) = genes_v.get_gene(&result.0) {
+                                Sequence::get_best_alignment(gene, &sequence.1).1
+                            } else {
+                                ('.'..='.')
+                                    .cycle()
+                                    .take(sequence.1.len())
+                                    .collect::<String>()
+                            },
+                            if let Some(gene) = genes_d.get_gene(&result.1) {
+                                Sequence::get_best_alignment(gene, &sequence.1).1
+                            } else {
+                                ('.'..='.')
+                                    .cycle()
+                                    .take(sequence.1.len())
+                                    .collect::<String>()
+                            },
+                            if let Some(gene) = genes_j.get_gene(&result.2) {
+                                Sequence::get_best_alignment(gene, &sequence.1).1
+                            } else {
+                                ('.'..='.')
+                                    .cycle()
+                                    .take(sequence.1.len())
+                                    .collect::<String>()
+                            },
+                        ))
+                            .as_bytes(),
                     )
                     .expect("Cannot write to file");
                     tmp
@@ -449,13 +477,19 @@ struct ConfusionMatrix(Vec<Vec<usize>>, HashMap<String, usize>);
 
 impl ConfusionMatrix {
     pub fn new(genes: &Genes) -> ConfusionMatrix {
-        let confusion = vec![vec![0; genes.0.len()]; genes.0.len()];
-        let hash_index = genes
-            .0
-            .iter()
-            .enumerate()
-            .map(|(idx, gene)| (gene.0.clone(), idx))
-            .collect();
+        let (size, hash_index) =
+            genes
+                .0
+                .iter()
+                .fold((0, HashMap::new()), |(idx, mut hash_map), gene| {
+                    if hash_map.contains_key(&gene.0) {
+                        (idx, hash_map)
+                    } else {
+                        hash_map.insert(gene.0.clone(), idx);
+                        (idx + 1, hash_map)
+                    }
+                });
+        let confusion = vec![vec![0; size]; size];
         ConfusionMatrix(confusion, hash_index)
     }
 
@@ -495,11 +529,12 @@ fn main() {
     let results = SequenceResult::load_from("data/datasets/simulations/simTrueGenes.txt");
 
     let predictions = SequenceResult::calcul_and_save_to(
-        "test_alignment/test.txt",
+        "test_alignment/genes_alignment.txt",
         &sequences,
         &genes_v,
         &genes_d,
         &genes_j,
+        &results,
     );
     // let predictions = SequenceResult::load_from("../data/datasets/simulations/simTrueGenes.txt");
 
