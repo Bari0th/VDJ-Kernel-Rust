@@ -152,10 +152,6 @@ impl Sequence {
         }
         (result[result.len() - 1].0, s)
     }
-
-    pub fn to_string(&self) -> String {
-        Into::<String>::into(self)
-    }
 }
 
 use std::ops::Deref;
@@ -170,6 +166,12 @@ impl Deref for Sequence {
 impl Into<String> for &Sequence {
     fn into(self) -> String {
         self.0.iter().map(|&n| Into::<char>::into(n)).collect()
+    }
+}
+
+impl fmt::Display for Sequence {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.write_str(&Into::<String>::into(self))
     }
 }
 
