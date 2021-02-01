@@ -11,19 +11,10 @@ fn main() {
 
     let results = SequenceResult::load_from("data/datasets/simulations/simTrueGenes.txt");
 
-    let predictions = SequenceResult::calcul_and_save_to(
-        "test_alignment/genes_alignment.txt",
-        &sequences,
-        &genes_v,
-        &genes_d,
-        &genes_j,
-        &results,
-    );
-    // let predictions = SequenceResult::load_from("../data/datasets/simulations/simTrueGenes.txt");
+    //let predictions = SequenceResult::calcul_from(&sequences, &genes_v, &genes_d, &genes_j);
+    let predictions = SequenceResult::load_from("first_predictions");
 
-    predictions.save_to("first_predictions");
-
-    let confusion_matrixes = SequenceResult::get_confusion_matrixes(
+    let confusion_matrixes = SequenceResult::get_confusion_matrixes_without_allele(
         &predictions,
         &results,
         &genes_v,
@@ -33,6 +24,24 @@ fn main() {
 
     println!(
         "{}\n\n{}\n\n{}",
-        confusion_matrixes.0, confusion_matrixes.1, confusion_matrixes.2
+        DiffList::from_conf(&confusion_matrixes.0),
+        DiffList::from_conf(&confusion_matrixes.1),
+        DiffList::from_conf(&confusion_matrixes.2)
     );
+
+    use std::fs::File;
+    use std::io::Write;
+
+    File::create("accuracy.txt")
+        .expect("Cannot create file")
+        .write_all(
+            format!(
+                "{}\n\n{}\n\n{}",
+                DiffList::from_conf(&confusion_matrixes.0),
+                DiffList::from_conf(&confusion_matrixes.1),
+                DiffList::from_conf(&confusion_matrixes.2)
+            )
+            .as_bytes(),
+        )
+        .expect("Cannot write to file");
 }

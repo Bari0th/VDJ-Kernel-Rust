@@ -70,6 +70,7 @@ impl SequenceResult {
             sequences
                 .iter()
                 .map(|sequence| {
+                    println!("{}", sequence.0);
                     (
                         sequence.0.clone(),
                         (
@@ -286,6 +287,28 @@ impl SequenceResult {
             confusion_v.increment(&prediction.0, &result.0);
             confusion_d.increment(&prediction.1, &result.1);
             confusion_j.increment(&prediction.2, &result.2);
+        });
+        (confusion_v, confusion_d, confusion_j)
+    }
+
+    pub fn get_confusion_matrixes_without_allele(
+        predictions: &SequenceResult,
+        results: &SequenceResult,
+        genes_v: &Genes,
+        genes_d: &Genes,
+        genes_j: &Genes,
+    ) -> (ConfusionMatrix, ConfusionMatrix, ConfusionMatrix) {
+        let mut confusion_v = ConfusionMatrix::new_without_allele(genes_v);
+        let mut confusion_d = ConfusionMatrix::new_without_allele(genes_d);
+        let mut confusion_j = ConfusionMatrix::new_without_allele(genes_j);
+        predictions.0.iter().for_each(|(name, prediction)| {
+            let result = results
+                .0
+                .get(name)
+                .expect("Cannot get result for this sequence");
+            confusion_v.increment_without_allele(&prediction.0, &result.0);
+            confusion_d.increment_without_allele(&prediction.1, &result.1);
+            confusion_j.increment_without_allele(&prediction.2, &result.2);
         });
         (confusion_v, confusion_d, confusion_j)
     }
