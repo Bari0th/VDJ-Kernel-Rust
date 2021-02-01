@@ -29,6 +29,13 @@ fn main() {
         DiffList::from_conf(&confusion_matrixes.2)
     );
 
+    println!(
+        "{:?}\n\n{:?}\n\n{:?}",
+        DiffList::from_conf(&confusion_matrixes.0),
+        DiffList::from_conf(&confusion_matrixes.1),
+        DiffList::from_conf(&confusion_matrixes.2)
+    );
+
     use std::fs::File;
     use std::io::Write;
 
@@ -37,6 +44,19 @@ fn main() {
         .write_all(
             format!(
                 "{}\n\n{}\n\n{}",
+                DiffList::from_conf(&confusion_matrixes.0),
+                DiffList::from_conf(&confusion_matrixes.1),
+                DiffList::from_conf(&confusion_matrixes.2)
+            )
+            .as_bytes(),
+        )
+        .expect("Cannot write to file");
+
+    File::create("accuracy_most choose.txt")
+        .expect("Cannot create file")
+        .write_all(
+            format!(
+                "{:?}\n\n{:?}\n\n{:?}",
                 DiffList::from_conf(&confusion_matrixes.0),
                 DiffList::from_conf(&confusion_matrixes.1),
                 DiffList::from_conf(&confusion_matrixes.2)

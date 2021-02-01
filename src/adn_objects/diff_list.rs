@@ -65,3 +65,48 @@ impl fmt::Display for DiffList {
         Ok(())
     }
 }
+
+impl fmt::Debug for DiffList {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        for it in self.0.chunks(15) {
+            writeln!(
+                f,
+                "[{}]",
+                &it.iter()
+                    .map(|(s, _)| format!(", {:>10}", s.strip_prefix("IGH").unwrap()))
+                    .collect::<String>()[2..]
+            )?;
+
+            writeln!(
+                f,
+                "[{}]",
+                &it.iter()
+                    .map(|(_, v)| {
+                        format!(
+                            ", {:>10}",
+                            if v.len() > 1 && v[1].1 > v[0].1 {
+                                v[1].0.strip_prefix("IGH").unwrap()
+                            } else {
+                                v[0].0.strip_prefix("IGH").unwrap()
+                            }
+                        )
+                    })
+                    .collect::<String>()[2..]
+            )?;
+            writeln!(
+                f,
+                "{:10?}\n",
+                it.iter()
+                    .map(|(_, v)| {
+                        if v.len() > 1 && v[1].1 > v[0].1 {
+                            v[1].1
+                        } else {
+                            v[0].1
+                        }
+                    })
+                    .collect::<Vec<_>>()
+            )?;
+        }
+        Ok(())
+    }
+}
