@@ -7,12 +7,12 @@ fn main() {
     let genes_d = Genes::load_from("data/database/IGHDgenes.txt");
     let genes_v = Genes::load_from("data/database/IGHVgenes.txt");
 
-    let sequences = Sequences::load_from("data/datasets/simulations/sim1.fasta");
+    //let sequences = Sequences::load_from("data/datasets/simulations/sim1.fasta");
 
     let results = SequenceResult::load_from("data/datasets/simulations/simTrueGenes.txt");
 
     //let predictions = SequenceResult::calcul_from(&sequences, &genes_v, &genes_d, &genes_j);
-    let predictions = SequenceResult::load_from("first_predictions");
+    let predictions = SequenceResult::load_from("first_predictions.txt");
 
     let confusion_matrixes = SequenceResult::get_confusion_matrixes_without_allele(
         &predictions,
