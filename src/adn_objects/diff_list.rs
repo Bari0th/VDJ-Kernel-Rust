@@ -29,16 +29,16 @@ impl DiffList {
                     .map(move |(name, cpt)| (name.clone(), cpt * 100 / total))
                     .collect::<Vec<_>>();
                 if m[idx][idx] == 0 {
-                    v.push((ids[idx].clone(), 0))
+                    v.push((id.clone(), 0))
                 }
                 v.sort_by_key(|(s, cpt)| {
-                    if s == &ids[idx] {
+                    if s == id {
                         usize::MIN
                     } else {
                         usize::MAX - cpt
                     }
                 });
-                diff_list.0.push((ids[idx].clone(), v));
+                diff_list.0.push((id.clone(), v));
             }
         }
 

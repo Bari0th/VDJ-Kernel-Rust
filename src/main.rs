@@ -1,5 +1,6 @@
 #![allow(dead_code)]
 
+use std::time::Instant;
 use test_some_algorithm::adn_objects::prelude::*;
 
 fn main() {
@@ -7,12 +8,28 @@ fn main() {
     let genes_d = Genes::load_from("data/database/IGHDgenes.txt");
     let genes_v = Genes::load_from("data/database/IGHVgenes.txt");
 
-    //let sequences = Sequences::load_from("data/datasets/simulations/sim1.fasta");
+    let sequences = Sequences::load_from("data/datasets/simulations/sim1.fasta");
 
     let results = SequenceResult::load_from("data/datasets/simulations/simTrueGenes.txt");
 
-    //let predictions = SequenceResult::calcul_from(&sequences, &genes_v, &genes_d, &genes_j);
-    let predictions = SequenceResult::load_from("first_predictions.txt");
+    let start = Instant::now();
+    let predictions = SequenceResult::calcul_from(&sequences, &genes_v, &genes_d, &genes_j);
+    // let predictions = SequenceResult::calcul_and_save_to(
+    //     "test_alignment/genes_alignment.txt",
+    //     &sequences,
+    //     &genes_v,
+    //     &genes_d,
+    //     &genes_j,
+    //     &results,
+    // );
+    let time = start.elapsed().as_secs_f64();
+    //predictions.save_to("my_prediction.txt");
+
+    println!(
+        "Time for 1 000 000 sequences : {}",
+        time / sequences.len() as f64 * 1_000_000.
+    );
+    //let predictions = SequenceResult::load_from("first_predictions.txt");
 
     let confusion_matrixes = SequenceResult::get_confusion_matrixes_without_allele(
         &predictions,
@@ -52,7 +69,7 @@ fn main() {
         )
         .expect("Cannot write to file");
 
-    File::create("accuracy_most choose.txt")
+    File::create("accuracy_most_choose.txt")
         .expect("Cannot create file")
         .write_all(
             format!(

@@ -60,6 +60,18 @@ impl SequenceResult {
         .expect("Cannot write to file");
     }
 
+    pub fn get_best_genes<'a>(
+        sequence: &(String, Sequence),
+        genes_v: &'a Genes,
+        genes_d: &'a Genes,
+        genes_j: &'a Genes,
+    ) -> ((&'a str, usize), (&'a str, usize), (&'a str, usize)) {
+        let best_v = genes_v.get_best::<20>(&sequence.1);
+        let best_d = genes_d.get_best_all_sequence(&sequence.1[best_v.1 - 10..]);
+        let best_j = genes_j.get_best_all_sequence(&sequence.1[best_v.1 + best_d.1 - 20..]);
+        (best_v, best_d, best_j)
+    }
+
     pub fn calcul_from(
         sequences: &Sequences,
         genes_v: &Genes,
@@ -71,12 +83,14 @@ impl SequenceResult {
                 .iter()
                 .map(|sequence| {
                     println!("{}", sequence.0);
+                    let (best_v, best_d, best_j) =
+                        SequenceResult::get_best_genes(sequence, genes_v, genes_d, genes_j);
                     (
                         sequence.0.clone(),
                         (
-                            genes_v.get_best(&sequence.1).to_string(),
-                            genes_d.get_best(&sequence.1).to_string(),
-                            genes_j.get_best(&sequence.1).to_string(),
+                            best_v.0.to_string(),
+                            best_d.0.to_string(),
+                            best_j.0.to_string(),
                         ),
                     )
                 })
@@ -95,12 +109,14 @@ impl SequenceResult {
             sequences
                 .iter()
                 .map(|sequence| {
+                    let (best_v, best_d, best_j) =
+                        SequenceResult::get_best_genes(sequence, genes_v, genes_d, genes_j);
                     let tmp = (
                         sequence.0.clone(),
                         (
-                            genes_v.get_best(&sequence.1).to_string(),
-                            genes_d.get_best(&sequence.1).to_string(),
-                            genes_j.get_best(&sequence.1).to_string(),
+                            best_v.0.to_string(),
+                            best_d.0.to_string(),
+                            best_j.0.to_string(),
                         ),
                     );
                     let resultat = resultats.0.get(&tmp.0.to_string()).unwrap();
@@ -129,16 +145,18 @@ impl SequenceResult {
             sequences
                 .iter()
                 .map(|sequence| {
+                    let (best_v, best_d, best_j) =
+                        SequenceResult::get_best_genes(sequence, genes_v, genes_d, genes_j);
                     let tmp = (
                         sequence.0.clone(),
                         (
-                            genes_v.get_best(&sequence.1).to_string(),
-                            genes_d.get_best(&sequence.1).to_string(),
-                            genes_j.get_best(&sequence.1).to_string(),
+                            best_v.0.to_string(),
+                            best_d.0.to_string(),
+                            best_j.0.to_string(),
                         ),
                     );
                     println!("{}", sequence.0);
-                    let result = results.0.get(&tmp.0.to_string()).unwrap();
+                    let result = results.0.get(&tmp.0).unwrap();
 
                     let seq = sequence.1.to_string();
                     let seq_bytes = seq.as_bytes();
@@ -149,17 +167,22 @@ impl SequenceResult {
                     )
                     .1;
 
-                    let d_pred = Sequence::get_best_alignment(
-                        genes_d.get_gene(&tmp.1 .1).unwrap(),
-                        &sequence.1,
-                    )
-                    .1;
+                    let d_pred = ('.'..='.').cycle().take(best_v.1 - 10).collect::<String>()
+                        + &Sequence::get_best_alignment(
+                            genes_d.get_gene(&tmp.1 .1).unwrap(),
+                            &sequence.1[best_v.1 - 10..],
+                        )
+                        .1;
 
-                    let j_pred = Sequence::get_best_alignment(
-                        genes_j.get_gene(&tmp.1 .2).unwrap(),
-                        &sequence.1,
-                    )
-                    .1;
+                    let j_pred = ('.'..='.')
+                        .cycle()
+                        .take(best_v.1 + best_d.1 - 20)
+                        .collect::<String>()
+                        + &Sequence::get_best_alignment(
+                            genes_j.get_gene(&tmp.1 .2).unwrap(),
+                            &sequence.1[best_v.1 + best_d.1 - 20..],
+                        )
+                        .1;
 
                     let v_res = if let Some(gene) = genes_v.get_gene(&result.0) {
                         Sequence::get_best_alignment(gene, &sequence.1).1

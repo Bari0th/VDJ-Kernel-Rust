@@ -5,13 +5,27 @@ use std::ops::Deref;
 pub struct Genes(Vec<(String, Sequence)>);
 
 impl Genes {
-    pub fn get_best<'a>(&'a self, sequence: &[Nucleotide]) -> &'a str {
+    pub fn get_best<'a, const N: usize>(&'a self, sequence: &[Nucleotide]) -> (&'a str, usize) {
         self.0
             .iter()
-            .fold(("No genes", i32::MIN), |res, gene| {
-                let score = Sequence::compare(&gene.1, sequence);
+            .fold((("No genes", 0), i32::MIN), |res, gene| {
+                let score = Sequence::compare::<N>(&gene.1, sequence);
                 if score > res.1 {
-                    (&gene.0, score)
+                    ((&gene.0, gene.1.len()), score)
+                } else {
+                    res
+                }
+            })
+            .0
+    }
+
+    pub fn get_best_all_sequence<'a>(&'a self, sequence: &[Nucleotide]) -> (&'a str, usize) {
+        self.0
+            .iter()
+            .fold((("No genes", 0), i32::MIN), |res, gene| {
+                let score = Sequence::compare_all_sequence(&gene.1, sequence);
+                if score > res.1 {
+                    ((&gene.0, gene.1.len()), score)
                 } else {
                     res
                 }
