@@ -60,6 +60,7 @@ impl SequenceResult {
         .expect("Cannot write to file");
     }
 
+    #[allow(clippy::type_complexity)]
     pub fn get_best_genes<'a>(
         sequence: &(String, Sequence),
         genes_v: &'a Genes,

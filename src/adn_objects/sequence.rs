@@ -220,9 +220,13 @@ impl Deref for Sequence {
     }
 }
 
-impl Into<String> for &Sequence {
-    fn into(self) -> String {
-        self.0.iter().map(|&n| n as isize as u8 as char).collect()
+impl From<&Sequence> for String {
+    fn from(sequence: &Sequence) -> String {
+        sequence
+            .0
+            .iter()
+            .map(|&n| n as isize as u8 as char)
+            .collect()
     }
 }
 
