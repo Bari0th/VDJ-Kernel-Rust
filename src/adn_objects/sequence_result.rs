@@ -53,9 +53,134 @@ impl SequenceResult {
         file.write_all(
             self.0
                 .iter()
-                .map(|(key, value)| format!("{}\t{}\t{}\t{}\n", key, value.0, value.1, value.2))
+                .map(|(key, value)| {
+                    format!(
+                        "{:8}\t{:20}\t{:20}\t{:20}\n",
+                        key, value.0, value.1, value.2
+                    )
+                })
                 .collect::<String>()
                 .as_bytes(),
+        )
+        .expect("Cannot write to file");
+    }
+
+    pub fn compare_with(&self, results: &SequenceResult, path: &str) {
+        use std::fs::File;
+        use std::io::BufWriter;
+        use std::io::Write;
+
+        let mut writer = BufWriter::new(File::create(path).expect("Cannot create file"));
+
+        let mut keys = self.0.keys().collect::<Vec<_>>();
+        keys.sort_by_key(|key| key.strip_prefix("S").unwrap().parse::<usize>().unwrap());
+
+        for key in keys {
+            if let (Some(res), Some(pred)) = (results.0.get(key), self.0.get(key)) {
+                write!(
+                    writer,
+                    "{:8}Pred : {:20}{:20}{:20}\n        Res  : {:20}{:20}{:20}\n\n",
+                    key, pred.0, pred.1, pred.2, res.0, res.1, res.2
+                )
+                .expect("Cannot write to file");
+            }
+        }
+    }
+
+    pub fn confusion_with(&self, results: &SequenceResult, path: &str) {
+        use std::fs::File;
+        use std::io::Write;
+
+        let mut file = File::create(path).expect("Cannot create file");
+
+        let (v, d, j, n) =
+            self.0
+                .iter()
+                .fold((0, 0, 0, 0), |(mut v, mut d, mut j, mut n), (key, pred)| {
+                    if let Some(res) = results.0.get(key) {
+                        if res.0 == pred.0 {
+                            v += 1;
+                        }
+                        if res.1 == pred.1 {
+                            d += 1;
+                        }
+                        if res.2 == pred.2 {
+                            j += 1;
+                        }
+                        n += 1;
+                    }
+                    (v, d, j, n)
+                });
+
+        let v_per = v as f64 / n as f64 * 100.;
+        let d_per = d as f64 / n as f64 * 100.;
+        let j_per = j as f64 / n as f64 * 100.;
+        let tot = v + d + j;
+        let tot_per = tot as f64 / (3 * n) as f64 * 100.;
+
+        writeln!(file, "V  P : {:4} | {:3.2}%", v, v_per).expect("Cannot write to file");
+        writeln!(file, "   F : {:4} | {:3.2}%\n", n - v, 100. - v_per)
+            .expect("Cannot write to file");
+        writeln!(file, "D  P : {:4} | {:3.2}%", d, d_per).expect("Cannot write to file");
+        writeln!(file, "   F : {:4} | {:3.2}%\n", n - d, 100. - d_per)
+            .expect("Cannot write to file");
+        writeln!(file, "J  P : {:4} | {:3.2}%", j, j_per).expect("Cannot write to file");
+        writeln!(file, "   F : {:4} | {:3.2}%\n", n - j, 100. - j_per)
+            .expect("Cannot write to file");
+        writeln!(file, "ALL P : {:4} | {:3.2}%", tot, tot_per).expect("Cannot write to file");
+        writeln!(
+            file,
+            "    F : {:4} | {:3.2}%\n",
+            3 * n - tot,
+            100. - tot_per
+        )
+        .expect("Cannot write to file");
+    }
+
+    pub fn confusion_with_without_allele(&self, results: &SequenceResult, path: &str) {
+        use std::fs::File;
+        use std::io::Write;
+
+        let mut file = File::create(path).expect("Cannot create file");
+
+        let (v, d, j, n) =
+            self.0
+                .iter()
+                .fold((0, 0, 0, 0), |(mut v, mut d, mut j, mut n), (key, pred)| {
+                    if let Some(res) = results.0.get(key) {
+                        if res.0.split('*').next() == pred.0.split('*').next() {
+                            v += 1;
+                        }
+                        if res.1.split('*').next() == pred.1.split('*').next() {
+                            d += 1;
+                        }
+                        if res.2.split('*').next() == pred.2.split('*').next() {
+                            j += 1;
+                        }
+                        n += 1;
+                    }
+                    (v, d, j, n)
+                });
+        let v_per = v as f64 / n as f64 * 100.;
+        let d_per = d as f64 / n as f64 * 100.;
+        let j_per = j as f64 / n as f64 * 100.;
+        let tot = v + d + j;
+        let tot_per = tot as f64 / (3 * n) as f64 * 100.;
+        writeln!(file, "V  P : {:4} | {:3.2}%", v, v_per).expect("Cannot write to file");
+        writeln!(file, "   F : {:4} | {:3.2}%\n", n - v, 100. - v_per)
+            .expect("Cannot write to file");
+        writeln!(file, "D  P : {:4} | {:3.2}%", d, d_per).expect("Cannot write to file");
+        writeln!(file, "   F : {:4} | {:3.2}%\n", n - d, 100. - d_per)
+            .expect("Cannot write to file");
+        writeln!(file, "J  P : {:4} | {:3.2}%", j, j_per).expect("Cannot write to file");
+        writeln!(file, "   F : {:4} | {:3.2}%\n", n - j, 100. - j_per)
+            .expect("Cannot write to file");
+        writeln!(file, "ALL P : {:4} | {:3.2}%", tot, tot_per).expect("Cannot write to file");
+        writeln!(
+            file,
+            "    F : {:4} | {:3.2}%\n",
+            3 * n - tot,
+            100. - tot_per
         )
         .expect("Cannot write to file");
     }
@@ -67,7 +192,7 @@ impl SequenceResult {
         genes_d: &'a Genes,
         genes_j: &'a Genes,
     ) -> ((&'a str, usize), (&'a str, usize), (&'a str, usize)) {
-        let best_v = genes_v.get_best::<20>(&sequence.1);
+        let best_v = genes_v.get_best::<10>(&sequence.1);
         let best_d = genes_d.get_best_all_sequence(&sequence.1[best_v.1 - 10..]);
         let best_j = genes_j.get_best_all_sequence(&sequence.1[best_v.1 + best_d.1 - 20..]);
         (best_v, best_d, best_j)
@@ -83,7 +208,7 @@ impl SequenceResult {
             sequences
                 .iter()
                 .map(|sequence| {
-                    println!("{}", sequence.0);
+                    //println!("{}", sequence.0);
                     let (best_v, best_d, best_j) =
                         SequenceResult::get_best_genes(sequence, genes_v, genes_d, genes_j);
                     (

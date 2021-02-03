@@ -48,9 +48,9 @@ impl ConfusionMatrix {
     }
 
     pub fn increment(&mut self, prediction: &str, result: &str) {
-        if let Some(&idx) = self.1.get(prediction) {
+        if let Some(&idx) = self.1.get(result) {
             let i = idx;
-            if let Some(&idx) = self.1.get(result) {
+            if let Some(&idx) = self.1.get(prediction) {
                 let j = idx;
                 self.0[i][j] += 1;
             }
@@ -58,9 +58,9 @@ impl ConfusionMatrix {
     }
 
     pub fn increment_without_allele(&mut self, prediction: &str, result: &str) {
-        if let Some(&idx) = self.1.get(prediction.split('*').next().unwrap()) {
+        if let Some(&idx) = self.1.get(result.split('*').next().unwrap()) {
             let i = idx;
-            if let Some(&idx) = self.1.get(result.split('*').next().unwrap()) {
+            if let Some(&idx) = self.1.get(prediction.split('*').next().unwrap()) {
                 let j = idx;
                 self.0[i][j] += 1;
             }

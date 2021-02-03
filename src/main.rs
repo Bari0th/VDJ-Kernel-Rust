@@ -29,7 +29,15 @@ fn main() {
         "Time for 1 000 000 sequences : {}",
         time / sequences.len() as f64 * 1_000_000.
     );
-    //let predictions = SequenceResult::load_from("first_predictions.txt");
+    //let predictions = SequenceResult::load_from("my_predictions_tmp.txt");
+
+    predictions.save_to("my_predictions_tmp.txt");
+
+    predictions.compare_with(&results, "result_comparison.txt");
+
+    predictions.confusion_with(&results, "confusion_matrix.txt");
+
+    predictions.confusion_with_without_allele(&results, "confusion_matrix_without_allele.txt");
 
     let confusion_matrixes = SequenceResult::get_confusion_matrixes_without_allele(
         &predictions,
@@ -38,47 +46,24 @@ fn main() {
         &genes_d,
         &genes_j,
     );
+    let conf_v = DiffList::from_conf(&confusion_matrixes.0);
+    let conf_d = DiffList::from_conf(&confusion_matrixes.1);
+    let conf_j = DiffList::from_conf(&confusion_matrixes.2);
 
-    println!(
-        "{}\n\n{}\n\n{}",
-        DiffList::from_conf(&confusion_matrixes.0),
-        DiffList::from_conf(&confusion_matrixes.1),
-        DiffList::from_conf(&confusion_matrixes.2)
-    );
+    // println!("{}\n\n{}\n\n{}", conf_v, conf_d, conf_j);
 
-    println!(
-        "{:?}\n\n{:?}\n\n{:?}",
-        DiffList::from_conf(&confusion_matrixes.0),
-        DiffList::from_conf(&confusion_matrixes.1),
-        DiffList::from_conf(&confusion_matrixes.2)
-    );
+    // println!("{:?}\n\n{:?}\n\n{:?}", conf_v, conf_d, conf_j);
 
     use std::fs::File;
     use std::io::Write;
 
     File::create("accuracy.txt")
         .expect("Cannot create file")
-        .write_all(
-            format!(
-                "{}\n\n{}\n\n{}",
-                DiffList::from_conf(&confusion_matrixes.0),
-                DiffList::from_conf(&confusion_matrixes.1),
-                DiffList::from_conf(&confusion_matrixes.2)
-            )
-            .as_bytes(),
-        )
+        .write_all(format!("{}\n\n{}\n\n{}", conf_v, conf_d, conf_j).as_bytes())
         .expect("Cannot write to file");
 
     File::create("accuracy_most_choose.txt")
         .expect("Cannot create file")
-        .write_all(
-            format!(
-                "{:?}\n\n{:?}\n\n{:?}",
-                DiffList::from_conf(&confusion_matrixes.0),
-                DiffList::from_conf(&confusion_matrixes.1),
-                DiffList::from_conf(&confusion_matrixes.2)
-            )
-            .as_bytes(),
-        )
+        .write_all(format!("{:?}\n\n{:?}\n\n{:?}", conf_v, conf_d, conf_j).as_bytes())
         .expect("Cannot write to file");
 }

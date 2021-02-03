@@ -1,0 +1,2832 @@
+S1      Pred : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+        Res  : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+
+S2      Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S3      Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S4      Pred : IGHV1-8*02          IGHD2-8*01          IGHJ5*01            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S5      Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S6      Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S7      Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S8      Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S9      Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S10     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S11     Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S12     Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S13     Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S14     Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S15     Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S16     Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S17     Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S18     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S19     Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S20     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S21     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S22     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S23     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S24     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S25     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S26     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S27     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S28     Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S29     Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S30     Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S31     Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S32     Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S33     Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S34     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S35     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S36     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S37     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S38     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S39     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S40     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S41     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S42     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S43     Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S44     Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S45     Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S46     Pred : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+        Res  : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+
+S47     Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S48     Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S49     Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S50     Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S51     Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S52     Pred : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+        Res  : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+
+S53     Pred : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+        Res  : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+
+S54     Pred : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+        Res  : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+
+S55     Pred : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+        Res  : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+
+S56     Pred : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+        Res  : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+
+S57     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S58     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S59     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S60     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S61     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S62     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S63     Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S64     Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S65     Pred : IGHV3/OR16-9*01     IGHD4-17*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S66     Pred : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S67     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S68     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S69     Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S70     Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S71     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S72     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S73     Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S74     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S75     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S76     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S77     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S78     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S79     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S80     Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S81     Pred : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S82     Pred : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+        Res  : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+
+S83     Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S84     Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S85     Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S86     Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S87     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S88     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S89     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S90     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S91     Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S92     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S93     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S94     Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S95     Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S96     Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S97     Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S98     Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S99     Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S100    Pred : IGHV1/OR21-1*01     IGHD6-6*01          IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD6-6*01          IGHJ4*01            
+
+S101    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S102    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S103    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S104    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S105    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S106    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S107    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S108    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S109    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S110    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S111    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S112    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S113    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S114    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S115    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S116    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S117    Pred : IGHV3-11*04         IGHD6-19*01         IGHJ5*02            
+        Res  : IGHV3-11*04         IGHD4-11*01         IGHJ5*02            
+
+S118    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S119    Pred : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+        Res  : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+
+S120    Pred : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+        Res  : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+
+S121    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S122    Pred : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+        Res  : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+
+S123    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S124    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S125    Pred : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+        Res  : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+
+S126    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S127    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S128    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S129    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S130    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S131    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S132    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S133    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S134    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S135    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S136    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S137    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S138    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S139    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S140    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S141    Pred : IGHV3/OR16-6*02     IGHD3-22*01         IGHJ3*01            
+        Res  : IGHV3-15*08         IGHD3-22*01         IGHJ3*01            
+
+S142    Pred : IGHV3/OR16-6*02     IGHD3-22*01         IGHJ3*01            
+        Res  : IGHV3-15*08         IGHD3-22*01         IGHJ3*01            
+
+S143    Pred : IGHV1/OR15-9*01     IGHD2-21*01         IGHJ2*01            
+        Res  : IGHV1-46*01         IGHD2-21*01         IGHJ2*01            
+
+S144    Pred : IGHV1/OR15-9*01     IGHD2-21*01         IGHJ2*01            
+        Res  : IGHV1-46*01         IGHD2-21*01         IGHJ2*01            
+
+S145    Pred : IGHV1/OR15-9*01     IGHD2-21*01         IGHJ2*01            
+        Res  : IGHV1-46*01         IGHD2-21*01         IGHJ2*01            
+
+S146    Pred : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+        Res  : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+
+S147    Pred : IGHV1/OR15-9*01     IGHD2-21*01         IGHJ2*01            
+        Res  : IGHV1-46*01         IGHD2-21*01         IGHJ2*01            
+
+S148    Pred : IGHV3/OR16-6*02     IGHD3-22*01         IGHJ3*01            
+        Res  : IGHV3-15*08         IGHD3-22*01         IGHJ3*01            
+
+S149    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S150    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S151    Pred : IGHV1/OR15-5*02     IGHD3-16*01         IGHJ3*01            
+        Res  : IGHV1-46*01         IGHD1-1*01          IGHJ3*01            
+
+S152    Pred : IGHV3-13*01         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*01         IGHD3-9*01          IGHJ3*01            
+
+S153    Pred : IGHV3-13*01         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*01         IGHD3-9*01          IGHJ3*01            
+
+S154    Pred : IGHV1/OR15-5*02     IGHD2-8*01          IGHJ3*02            
+        Res  : IGHV1-46*01         IGHD1-1*01          IGHJ3*02            
+
+S155    Pred : IGHV1/OR15-5*02     IGHD2-8*01          IGHJ3*02            
+        Res  : IGHV1-46*01         IGHD1-1*01          IGHJ3*02            
+
+S156    Pred : IGHV4-34*01         IGHD3-16*01         IGHJ5*02            
+        Res  : IGHV4-34*12         IGHD3-16*01         IGHJ5*02            
+
+S157    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S158    Pred : IGHV4/OR15-8*02     IGHD5/OR15-5a*01    IGHJ3*01            
+        Res  : IGHV4-4*02          IGHD5-12*01         IGHJ3*01            
+
+S159    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S160    Pred : IGHV4/OR15-8*02     IGHD5/OR15-5a*01    IGHJ3*01            
+        Res  : IGHV4-4*02          IGHD5-12*01         IGHJ3*01            
+
+S161    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S162    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S163    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S164    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S165    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S166    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S167    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S168    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S169    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S170    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S171    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S172    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S173    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S174    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S175    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S176    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S177    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S178    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S179    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S180    Pred : IGHV4/OR15-8*02     IGHD5/OR15-5a*01    IGHJ3*01            
+        Res  : IGHV4-4*02          IGHD5-12*01         IGHJ3*01            
+
+S181    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S182    Pred : IGHV4/OR15-8*02     IGHD5/OR15-5a*01    IGHJ3*01            
+        Res  : IGHV4-4*02          IGHD5-12*01         IGHJ3*01            
+
+S183    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S184    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S185    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S186    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S187    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S188    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S189    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S190    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S191    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S192    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S193    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S194    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S195    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S196    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S197    Pred : IGHV1/OR15-9*01     IGHD2-21*01         IGHJ2*01            
+        Res  : IGHV1-46*01         IGHD2-21*01         IGHJ2*01            
+
+S198    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S199    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S200    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S201    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S202    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S203    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S204    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S205    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S206    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S207    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S208    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S209    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S210    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S211    Pred : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+        Res  : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+
+S212    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S213    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S214    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S215    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S216    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S217    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S218    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S219    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S220    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S221    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S222    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S223    Pred : IGHV1/OR21-1*01     IGHD6-6*01          IGHJ4*02            
+        Res  : IGHV1-46*01         IGHD6-6*01          IGHJ4*02            
+
+S224    Pred : IGHV1/OR21-1*01     IGHD6-6*01          IGHJ4*02            
+        Res  : IGHV1-46*01         IGHD6-6*01          IGHJ4*02            
+
+S225    Pred : IGHV3-21*02         IGHD3-22*01         IGHJ2*01            
+        Res  : IGHV3-21*02         IGHD4-23*01         IGHJ2*01            
+
+S226    Pred : IGHV1/OR21-1*01     IGHD6-6*01          IGHJ4*02            
+        Res  : IGHV1-46*01         IGHD6-6*01          IGHJ4*02            
+
+S227    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S228    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S229    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S230    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S231    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S232    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S233    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S234    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S235    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S236    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S237    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S238    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S239    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S240    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S241    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S242    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S243    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S244    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S245    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S246    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S247    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S248    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S249    Pred : IGHV3-9*01          IGHD5-12*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD3-16*01         IGHJ6*02            
+
+S250    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S251    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD6-13*01         IGHJ1*01            
+
+S252    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S253    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S254    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD6-13*01         IGHJ1*01            
+
+S255    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S256    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S257    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S258    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S259    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S260    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S261    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S262    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S263    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S264    Pred : IGHV6-1*02          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*02          IGHD4-23*01         IGHJ5*01            
+
+S265    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S266    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S267    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S268    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S269    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ5*02            
+
+S270    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S271    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S272    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S273    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S274    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S275    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S276    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S277    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S278    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S279    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S280    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S281    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S282    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S283    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S284    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S285    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S286    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S287    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S288    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S289    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S290    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S291    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S292    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S293    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S294    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S295    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S296    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S297    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S298    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S299    Pred : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+        Res  : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+
+S300    Pred : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+        Res  : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+
+S301    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S302    Pred : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+        Res  : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+
+S303    Pred : IGHV3-21*02         IGHD4-17*01         IGHJ2*01            
+        Res  : IGHV3-21*02         IGHD4-23*01         IGHJ2*01            
+
+S304    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S305    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S306    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S307    Pred : IGHV4/OR15-8*02     IGHD5/OR15-5a*01    IGHJ3*01            
+        Res  : IGHV4-4*02          IGHD5-12*01         IGHJ3*01            
+
+S308    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S309    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S310    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S311    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S312    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S313    Pred : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+        Res  : IGHV2-26*01         IGHD1-14*01         IGHJ2*01            
+
+S314    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD3-22*01         IGHJ6*04            
+
+S315    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD3-22*01         IGHJ6*04            
+
+S316    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S317    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S318    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S319    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S320    Pred : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+        Res  : IGHV1-46*01         IGHD2-15*01         IGHJ1*01            
+
+S321    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S322    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S323    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S324    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S325    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S326    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S327    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S328    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S329    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S330    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S331    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S332    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S333    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S334    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S335    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S336    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S337    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S338    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S339    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S340    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S341    Pred : IGHV4-34*01         IGHD3-16*01         IGHJ5*02            
+        Res  : IGHV4-34*12         IGHD3-16*01         IGHJ5*02            
+
+S342    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S343    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S344    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S345    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S346    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S347    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S348    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S349    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S350    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S351    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S352    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S353    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S354    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S355    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S356    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S357    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S358    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S359    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S360    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S361    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S362    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S363    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S364    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S365    Pred : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+        Res  : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+
+S366    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S367    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S368    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S369    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S370    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S371    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S372    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S373    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S374    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S375    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S376    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S377    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S378    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S379    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S380    Pred : IGHV3/OR16-9*01     IGHD2-15*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD2-15*01         IGHJ2*01            
+
+S381    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S382    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S383    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S384    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S385    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S386    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S387    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S388    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S389    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S390    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S391    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S392    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S393    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S394    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S395    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S396    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S397    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S398    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S399    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S400    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S401    Pred : IGHV3-21*02         IGHD4-17*01         IGHJ2*01            
+        Res  : IGHV3-21*02         IGHD4-23*01         IGHJ2*01            
+
+S402    Pred : IGHV4-34*01         IGHD3-16*01         IGHJ5*02            
+        Res  : IGHV4-34*12         IGHD3-16*01         IGHJ5*02            
+
+S403    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S404    Pred : IGHV3-21*02         IGHD4-17*01         IGHJ2*01            
+        Res  : IGHV3-21*02         IGHD4-23*01         IGHJ2*01            
+
+S405    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S406    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S407    Pred : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+        Res  : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+
+S408    Pred : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+        Res  : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+
+S409    Pred : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+        Res  : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+
+S410    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S411    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S412    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S413    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S414    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S415    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S416    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S417    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S418    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S419    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S420    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S421    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S422    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S423    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S424    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S425    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S426    Pred : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+        Res  : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+
+S427    Pred : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+        Res  : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+
+S428    Pred : IGHV3/OR16-6*02     IGHD3-22*01         IGHJ3*01            
+        Res  : IGHV3-15*08         IGHD3-22*01         IGHJ3*01            
+
+S429    Pred : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+        Res  : IGHV1-69-2*01       IGHD3-22*01         IGHJ3*02            
+
+S430    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S431    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S432    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S433    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S434    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S435    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S436    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S437    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S438    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S439    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S440    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S441    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S442    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S443    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S444    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S445    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S446    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S447    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S448    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S449    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S450    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S451    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S452    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S453    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S454    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S455    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S456    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S457    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S458    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S459    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S460    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S461    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S462    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S463    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S464    Pred : IGHV3-66*02         IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-66*02         _                   IGHJ4*01            
+
+S465    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S466    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S467    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S468    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S469    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S470    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S471    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S472    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S473    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S474    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*05          IGHD4-11*01         IGHJ1*01            
+
+S475    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S476    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S477    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD1-7*01          IGHJ4*03            
+
+S478    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S479    Pred : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S480    Pred : IGHV3-38-3*01       IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S481    Pred : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S482    Pred : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S483    Pred : IGHV3-38-3*01       IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S484    Pred : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S485    Pred : IGHV3-38-3*01       IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S486    Pred : IGHV3-38-3*01       IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S487    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S488    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S489    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S490    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S491    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S492    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S493    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S494    Pred : IGHV3-38-3*01       IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+
+S495    Pred : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S496    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S497    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S498    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S499    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S500    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S501    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S502    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S503    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S504    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S505    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S506    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S507    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S508    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S509    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S510    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S511    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S512    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S513    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S514    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S515    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S516    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S517    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S518    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S519    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S520    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S521    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S522    Pred : IGHV3-38-3*01       IGHD1-26*01         IGHJ4*01            
+        Res  : IGHV3-38-3*01       IGHD3-9*01          IGHJ4*01            
+
+S523    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S524    Pred : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+        Res  : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+
+S525    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S526    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S527    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S528    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S529    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S530    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S531    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S532    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S533    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S534    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S535    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S536    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S537    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S538    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S539    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S540    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S541    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S542    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S543    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S544    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S545    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S546    Pred : IGHV1/OR15-5*02     IGHD2-8*01          IGHJ3*02            
+        Res  : IGHV1-46*01         IGHD1-1*01          IGHJ3*02            
+
+S547    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S548    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S549    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S550    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S551    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S552    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S553    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S554    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S555    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S556    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S557    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S558    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S559    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S560    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S561    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S562    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S563    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD6-13*01         IGHJ1*01            
+
+S564    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S565    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S566    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S567    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S568    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S569    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S570    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S571    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S572    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD3-22*01         IGHJ6*04            
+
+S573    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S574    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S575    Pred : IGHV3-11*04         IGHD6-19*01         IGHJ5*02            
+        Res  : IGHV3-11*04         IGHD4-11*01         IGHJ5*02            
+
+S576    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S577    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S578    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S579    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S580    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S581    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S582    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S583    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S584    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S585    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S586    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S587    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S588    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S589    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S590    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S591    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S592    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S593    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S594    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S595    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S596    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S597    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S598    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S599    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S600    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S601    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S602    Pred : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+        Res  : IGHV1-2*03          IGHD6-6*01          IGHJ3*02            
+
+S603    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S604    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S605    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S606    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S607    Pred : IGHV1-8*02          IGHD4-23*01         IGHJ6*04            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S608    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S609    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S610    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S611    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S612    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S613    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S614    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S615    Pred : IGHV1-8*02          IGHD2-8*01          IGHJ5*01            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S616    Pred : IGHV1-8*02          IGHD2-8*01          IGHJ5*01            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S617    Pred : IGHV1-8*02          IGHD2-8*01          IGHJ5*01            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S618    Pred : IGHV1-8*02          IGHD4-23*01         IGHJ6*04            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S619    Pred : IGHV1-8*02          IGHD4-23*01         IGHJ6*04            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S620    Pred : IGHV1-8*02          IGHD4-23*01         IGHJ6*04            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S621    Pred : IGHV1-8*02          IGHD4-23*01         IGHJ6*04            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S622    Pred : IGHV1-8*02          IGHD4-23*01         IGHJ6*04            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S623    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S624    Pred : IGHV4-34*01         IGHD3-16*01         IGHJ5*02            
+        Res  : IGHV4-34*12         IGHD3-16*01         IGHJ5*02            
+
+S625    Pred : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+        Res  : IGHV1-69-2*01       IGHD1-26*01         IGHJ3*01            
+
+S626    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S627    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S628    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S629    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S630    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S631    Pred : IGHV3/OR16-8*01     IGHD6-13*01         IGHJ1*01            
+        Res  : IGHV3-11*06         _                   IGHJ1*01            
+
+S632    Pred : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+        Res  : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+
+S633    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S634    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S635    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD3-22*01         IGHJ6*04            
+
+S636    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S637    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S638    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S639    Pred : IGHV1/OR15-1*04     IGHD2/OR15-2a*01    IGHJ5*01            
+        Res  : IGHV1-2*06          IGHD2-2*01          IGHJ5*01            
+
+S640    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S641    Pred : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+        Res  : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+
+S642    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S643    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S644    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S645    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S646    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S647    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S648    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S649    Pred : IGHV3/OR16-9*01     IGHD2/OR15-2a*01    IGHJ4*01            
+        Res  : IGHV3-11*06         IGHD3-10*02         IGHJ4*01            
+
+S650    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S651    Pred : IGHV1/OR15-1*02     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S652    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S653    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S654    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S655    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S656    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S657    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD2-8*01          IGHJ5*01            
+
+S658    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S659    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S660    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S661    Pred : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+        Res  : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+
+S662    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S663    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S664    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S665    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S666    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S667    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S668    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S669    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S670    Pred : IGHV3/OR16-6*02     IGHD3-22*01         IGHJ3*01            
+        Res  : IGHV3-15*08         IGHD3-22*01         IGHJ3*01            
+
+S671    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S672    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S673    Pred : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+        Res  : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+
+S674    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S675    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S676    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S677    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S678    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S679    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S680    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S681    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S682    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S683    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S684    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S685    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S686    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S687    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S688    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S689    Pred : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+        Res  : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+
+S690    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S691    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S692    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S693    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S694    Pred : IGHV3-66*02         IGHD2/OR15-2a*01    IGHJ6*04            
+        Res  : IGHV3-66*02         IGHD2-2*01          IGHJ6*04            
+
+S695    Pred : IGHV3/OR16-6*02     IGHD3-22*01         IGHJ3*01            
+        Res  : IGHV3-15*08         IGHD3-22*01         IGHJ3*01            
+
+S696    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S697    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S698    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S699    Pred : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+        Res  : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+
+S700    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S701    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD2-8*01          IGHJ5*01            
+
+S702    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S703    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S704    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S705    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD2-8*01          IGHJ5*01            
+
+S706    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD2-8*01          IGHJ5*01            
+
+S707    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD2-8*01          IGHJ5*01            
+
+S708    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S709    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S710    Pred : IGHV3-49*02         IGHD5/OR15-5a*01    IGHJ1*01            
+        Res  : IGHV3-49*02         IGHD5-12*01         IGHJ1*01            
+
+S711    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S712    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S713    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S714    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S715    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S716    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S717    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S718    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S719    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S720    Pred : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+        Res  : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+
+S721    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S722    Pred : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+        Res  : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+
+S723    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S724    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S725    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S726    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S727    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S728    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S729    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S730    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S731    Pred : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+        Res  : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+
+S732    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S733    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S734    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S735    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S736    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S737    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-3*01          IGHJ4*03            
+
+S738    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S739    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S740    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S741    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S742    Pred : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+        Res  : IGHV4-34*13         IGHD1-1*01          IGHJ6*01            
+
+S743    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S744    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S745    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S746    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S747    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S748    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S749    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S750    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S751    Pred : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+        Res  : IGHV3-33*05         IGHD2-15*01         IGHJ4*03            
+
+S752    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S753    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S754    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S755    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S756    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S757    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S758    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S759    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S760    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S761    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S762    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S763    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S764    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S765    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S766    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S767    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S768    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S769    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S770    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S771    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S772    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD1-7*01          IGHJ1*01            
+
+S773    Pred : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+        Res  : IGHV3-30-3*01       IGHD3-9*01          IGHJ1*01            
+
+S774    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S775    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S776    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S777    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S778    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S779    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S780    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S781    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S782    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S783    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S784    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD2-8*01          IGHJ5*01            
+
+S785    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S786    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S787    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S788    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S789    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S790    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S791    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S792    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S793    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S794    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S795    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S796    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S797    Pred : IGHV3-25*04         IGHD4/OR15-4a*01    IGHJ4*01            
+        Res  : IGHV3-25*04         IGHD4-23*01         IGHJ4*01            
+
+S798    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S799    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S800    Pred : IGHV1-8*02          IGHD2-2*01          IGHJ5*01            
+        Res  : IGHV1-8*02          IGHD2-21*01         IGHJ6*04            
+
+S801    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S802    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S803    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD2-15*01         IGHJ2*01            
+
+S804    Pred : IGHV3-11*04         IGHD6-19*01         IGHJ5*02            
+        Res  : IGHV3-11*04         IGHD4-11*01         IGHJ5*02            
+
+S805    Pred : IGHV3/OR16-9*01     IGHD1-26*01         IGHJ2*01            
+        Res  : IGHV3-11*06         IGHD1-26*01         IGHJ2*01            
+
+S806    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S807    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S808    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S809    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S810    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S811    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S812    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S813    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S814    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S815    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S816    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S817    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S818    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S819    Pred : IGHV3-11*04         IGHD6-19*01         IGHJ5*02            
+        Res  : IGHV3-11*04         IGHD4-11*01         IGHJ5*02            
+
+S820    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S821    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S822    Pred : IGHV3-11*04         IGHD6-19*01         IGHJ5*02            
+        Res  : IGHV3-11*04         IGHD4-11*01         IGHJ5*02            
+
+S823    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S824    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S825    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S826    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S827    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S828    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S829    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S830    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S831    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S832    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S833    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S834    Pred : IGHV1/OR15-1*02     IGHD4-11*01         IGHJ1*01            
+        Res  : IGHV1-2*06          IGHD4-11*01         IGHJ1*01            
+
+S835    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S836    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S837    Pred : IGHV3-13*05         IGHD2-2*03          IGHJ1*01            
+        Res  : IGHV3-13*05         IGHD4-23*01         IGHJ1*01            
+
+S838    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S839    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S840    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S841    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S842    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S843    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S844    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S845    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S846    Pred : IGHV3/OR16-9*01     IGHD3-3*01          IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S847    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S848    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S849    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S850    Pred : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+        Res  : IGHV3-23*04         IGHD6-6*01          IGHJ2*01            
+
+S851    Pred : IGHV3-49*02         IGHD5/OR15-5a*01    IGHJ1*01            
+        Res  : IGHV3-49*02         IGHD5-12*01         IGHJ1*01            
+
+S852    Pred : IGHV3-49*02         IGHD5/OR15-5a*01    IGHJ1*01            
+        Res  : IGHV3-49*02         IGHD5-12*01         IGHJ1*01            
+
+S853    Pred : IGHV3-49*02         IGHD5/OR15-5a*01    IGHJ1*01            
+        Res  : IGHV3-49*02         IGHD5-12*01         IGHJ1*01            
+
+S854    Pred : IGHV3-74*01         IGHD2-21*01         IGHJ5*01            
+        Res  : IGHV3-74*02         IGHD2-21*01         IGHJ5*01            
+
+S855    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S856    Pred : IGHV1/OR15-9*01     IGHD2-21*01         IGHJ2*01            
+        Res  : IGHV1-46*01         IGHD2-21*01         IGHJ2*01            
+
+S857    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S858    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S859    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S860    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S861    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S862    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S863    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S864    Pred : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ4*02            
+
+S865    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S866    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S867    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S868    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S869    Pred : IGHV6-1*01          IGHD6-13*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD1-1*01          IGHJ5*01            
+
+S870    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S871    Pred : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV3-33*04         IGHD2-8*01          IGHJ4*01            
+
+S872    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S873    Pred : IGHV3-21*02         IGHD4-17*01         IGHJ2*01            
+        Res  : IGHV3-21*02         IGHD4-23*01         IGHJ2*01            
+
+S874    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S875    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S876    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S877    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S878    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S879    Pred : IGHV4/OR15-8*02     IGHD5/OR15-5a*01    IGHJ3*01            
+        Res  : IGHV4-4*02          IGHD5-12*01         IGHJ3*01            
+
+S880    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S881    Pred : IGHV3-21*02         IGHD4-17*01         IGHJ2*01            
+        Res  : IGHV3-21*02         IGHD4-23*01         IGHJ2*01            
+
+S882    Pred : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+        Res  : IGHV4-30-2*01       IGHD2-21*01         IGHJ5*02            
+
+S883    Pred : IGHV3-9*01          IGHD4-11*01         IGHJ6*02            
+        Res  : IGHV3-9*01          IGHD1-26*01         IGHJ6*02            
+
+S884    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S885    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S886    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S887    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S888    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S889    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S890    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S891    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S892    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S893    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S894    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S895    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S896    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S897    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-3*01          IGHJ4*03            
+
+S898    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S899    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S900    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S901    Pred : IGHV3/OR16-9*01     IGHD3-16*01         IGHJ4*03            
+        Res  : IGHV3-11*06         IGHD3-16*01         IGHJ4*03            
+
+S902    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S903    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S904    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S905    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S906    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S907    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S908    Pred : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+        Res  : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+
+S909    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S910    Pred : IGHV3/OR16-8*01     IGHD2-2*03          IGHJ4*02            
+        Res  : IGHV3-11*06         IGHD7-27*01         IGHJ1*01            
+
+S911    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S912    Pred : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+        Res  : IGHV3-73*02         IGHD2-15*01         IGHJ4*02            
+
+S913    Pred : IGHV1/OR15-5*02     IGHD3-22*01         IGHJ4*01            
+        Res  : IGHV1-46*01         IGHD3-22*01         IGHJ4*01            
+
+S914    Pred : IGHV3/OR16-9*01     IGHD2/OR15-2a*01    IGHJ4*01            
+        Res  : IGHV3-11*06         IGHD3-10*02         IGHJ4*01            
+
+S915    Pred : IGHV3/OR16-9*01     IGHD2/OR15-2a*01    IGHJ4*01            
+        Res  : IGHV3-11*06         IGHD3-10*02         IGHJ4*01            
+
+S916    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S917    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S918    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S919    Pred : IGHV3/OR16-9*01     IGHD2/OR15-2a*01    IGHJ4*01            
+        Res  : IGHV3-11*06         IGHD3-10*02         IGHJ4*01            
+
+S920    Pred : IGHV4-34*01         IGHD3-16*01         IGHJ5*02            
+        Res  : IGHV4-34*12         IGHD3-16*01         IGHJ5*02            
+
+S921    Pred : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+        Res  : IGHV3-13*03         IGHD3-9*01          IGHJ3*01            
+
+S922    Pred : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+        Res  : IGHV3-20*01         IGHD2-21*01         IGHJ4*02            
+
+S923    Pred : IGHV4-34*01         IGHD3-16*01         IGHJ5*02            
+        Res  : IGHV4-34*12         IGHD3-16*01         IGHJ5*02            
+
+S924    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ3*01            
+
+S925    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S926    Pred : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+        Res  : IGHV1-24*01         IGHD3-10*02         IGHJ5*01            
+
+S927    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S928    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S929    Pred : IGHV3-11*04         IGHD6-19*01         IGHJ5*02            
+        Res  : IGHV3-11*04         IGHD4-11*01         IGHJ5*02            
+
+S930    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S931    Pred : IGHV6-1*01          IGHD2-15*01         IGHJ5*01            
+        Res  : IGHV6-1*01          IGHD4-23*01         IGHJ5*01            
+
+S932    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S933    Pred : IGHV3-43D*01        IGHD4-11*01         IGHJ4*01            
+        Res  : IGHV3-43D*03        IGHD4-11*01         IGHJ4*01            
+
+S934    Pred : IGHV4-38-2*02       IGHD6-13*01         IGHJ3*01            
+        Res  : IGHV4-38-2*01       IGHD6-13*01         IGHJ4*03            
+
+S935    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S936    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S937    Pred : IGHV1/OR15-1*04     IGHD2-8*01          IGHJ4*01            
+        Res  : IGHV1-2*06          IGHD2-8*01          IGHJ4*01            
+
+S938    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S939    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S940    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S941    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S942    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S943    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
+S944    Pred : IGHV2-5*09          IGHD5/OR15-5a*01    IGHJ6*04            
+        Res  : IGHV2-5*09          IGHD5-12*01         IGHJ6*04            
+
