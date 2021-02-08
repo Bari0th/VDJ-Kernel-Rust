@@ -245,7 +245,7 @@ impl SequenceResult {
                             best_j.0.to_string(),
                         ),
                     );
-                    let resultat = resultats.0.get(&tmp.0.to_string()).unwrap();
+                    let resultat = resultats.0.get(&tmp.0).unwrap();
                     println!(
                         "{} :\t{} {} {}\n\t{} {} {}\n\n",
                         tmp.0, resultat.0, resultat.1, resultat.2, tmp.1 .0, tmp.1 .1, tmp.1 .2
