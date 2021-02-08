@@ -13,7 +13,9 @@ fn main() {
     let results = SequenceResult::load_from("data/datasets/simulations/simTrueGenes.txt");
 
     let start = Instant::now();
-    let predictions = SequenceResult::calcul_from(&sequences, &genes_v, &genes_d, &genes_j);
+    let predictions = SequenceResult::calcul_with_k_mers::<25, 4, 7, 2, 2, 2>(
+        &sequences, &genes_v, &genes_d, &genes_j,
+    );
     // let predictions = SequenceResult::calcul_and_save_to(
     //     "test_alignment/genes_alignment.txt",
     //     &sequences,

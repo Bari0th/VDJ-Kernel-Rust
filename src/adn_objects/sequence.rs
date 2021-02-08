@@ -1,22 +1,74 @@
 use super::prelude::*;
+use std::cmp::Reverse;
+use std::collections::BTreeMap;
+use std::collections::HashMap;
 use std::fmt;
+use std::slice::SliceIndex;
 
 #[derive(Debug, Clone)]
-pub struct Sequence(Vec<Nucleotide>);
+pub struct Sequence(&'static [Nucleotide]);
 
 impl Sequence {
     pub fn new(s: &str) -> Sequence {
         Sequence(
             s.chars()
-                .filter(|&c| c != '\r' && c != '\n' && c != ' ')
                 .filter_map(|ch| {
                     match ch {
-                        '.' => None, //ignore .
+                        '.' | '\r' | '\n' | ' ' => None, //ignore .
                         _ => Some(Nucleotide::from(ch)),
                     }
                 })
-                .collect(),
+                .collect::<Vec<_>>()
+                .leak(),
         )
+    }
+
+    pub fn slice(&self, index: impl SliceIndex<[Nucleotide], Output = [Nucleotide]>) -> Sequence {
+        Sequence(&self.0[index])
+    }
+
+    pub fn decompose_k_mers<const K: usize>(&self) -> HashMap<&[Nucleotide], usize> {
+        let mut k_mers = HashMap::new();
+        for i in K..self.0.len() {
+            let k_mer = &self.0[i - K..i];
+            if let Some(count) = k_mers.get_mut(k_mer) {
+                *count += 1;
+            } else {
+                k_mers.insert(k_mer, 1);
+            }
+        }
+        k_mers
+    }
+
+    pub fn get_best_matches<'a, const K: usize, const RANGE: isize>(
+        &self,
+        k_mers_trees: &HashMap<&[Nucleotide], BTreeMap<usize, Vec<&'a str>>>,
+    ) -> Vec<(&'a str, usize)> {
+        let mut matches: HashMap<&str, usize> = HashMap::new();
+
+        for (k_mer, count) in self.decompose_k_mers::<K>().into_iter() {
+            if let Some(k_mers_tree) = k_mers_trees.get(k_mer) {
+                for i in 0.max(count as isize - RANGE) as usize..=count + RANGE as usize {
+                    if let Some(names) = k_mers_tree.get(&i) {
+                        for name in names {
+                            if let Some(count) = matches.get_mut(name) {
+                                *count += 1;
+                            } else {
+                                matches.insert(name, 1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        if matches.is_empty() {
+            vec![("No genes", 0)]
+        } else {
+            let mut matches: Vec<(&str, usize)> = matches.into_iter().collect();
+            matches.sort_by_key(|&(_, count)| Reverse(count));
+            matches
+        }
     }
 
     pub fn compare<const N: usize>(gene: &[Nucleotide], sequence: &[Nucleotide]) -> i32 {
@@ -216,7 +268,7 @@ use std::ops::Deref;
 impl Deref for Sequence {
     type Target = [Nucleotide];
     fn deref(&self) -> &Self::Target {
-        &self.0
+        self.0
     }
 }
 

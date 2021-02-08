@@ -1,4 +1,6 @@
 use super::prelude::*;
+use std::collections::BTreeMap;
+use std::collections::HashMap;
 use std::ops::Deref;
 
 #[derive(Debug)]
@@ -61,6 +63,31 @@ impl Genes {
                 })
                 .collect(),
         )
+    }
+
+    pub fn construct_k_mers_trees<const K: usize>(
+        &self,
+    ) -> HashMap<&[Nucleotide], BTreeMap<usize, Vec<&str>>> {
+        let mut k_mers_trees: HashMap<&[Nucleotide], BTreeMap<usize, Vec<&str>>> = HashMap::new();
+
+        for (name, sequence) in self.0.iter() {
+            let k_mers = sequence.decompose_k_mers::<K>();
+            for (k_mer, &count) in k_mers.iter() {
+                if let Some(k_mers_tree) = k_mers_trees.get_mut(k_mer) {
+                    if let Some(names) = k_mers_tree.get_mut(&count) {
+                        names.push(name);
+                    } else {
+                        k_mers_tree.insert(count, vec![name.as_ref()]);
+                    }
+                } else {
+                    let mut k_mers_tree = BTreeMap::new();
+                    k_mers_tree.insert(count, vec![name.as_ref()]);
+                    k_mers_trees.insert(k_mer, k_mers_tree);
+                }
+            }
+        }
+
+        k_mers_trees
     }
 }
 

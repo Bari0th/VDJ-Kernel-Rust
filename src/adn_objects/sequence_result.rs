@@ -461,4 +461,53 @@ impl SequenceResult {
         });
         (confusion_v, confusion_d, confusion_j)
     }
+
+    pub fn calcul_with_k_mers<
+        'a,
+        const KV: usize,
+        const KD: usize,
+        const KJ: usize,
+        const RANGEV: isize,
+        const RANGED: isize,
+        const RANGEJ: isize,
+    >(
+        sequences: &Sequences,
+        genes_v: &'a Genes,
+        genes_d: &'a Genes,
+        genes_j: &'a Genes,
+    ) -> SequenceResult {
+        let v_tree = genes_v.construct_k_mers_trees::<KV>();
+        let d_tree = genes_d.construct_k_mers_trees::<KD>();
+        let j_tree = genes_j.construct_k_mers_trees::<KJ>();
+        SequenceResult(
+            sequences
+                .iter()
+                .map(|sequence| {
+                    let best_v = sequence
+                        .1
+                        .slice(0..200.min(sequence.1.len()))
+                        .get_best_matches::<KV, RANGEV>(&v_tree)[0]
+                        .0;
+                    let size_v = genes_v.get_gene(best_v).unwrap().len();
+
+                    let best_j = sequence
+                        .1
+                        .slice(size_v + 10..)
+                        .get_best_matches::<KJ, RANGEJ>(&j_tree)[0]
+                        .0;
+                    let size_j = genes_j.get_gene(best_j).unwrap().len();
+
+                    let best_d = sequence
+                        .1
+                        .slice(size_v..size_v.max(sequence.1.len() - size_j))
+                        .get_best_matches::<KD, RANGED>(&d_tree)[0]
+                        .0;
+                    (
+                        sequence.0.clone(),
+                        (best_v.to_string(), best_d.to_string(), best_j.to_string()),
+                    )
+                })
+                .collect(),
+        )
+    }
 }
